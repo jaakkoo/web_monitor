@@ -94,8 +94,6 @@ class RequestedPage(object):
             self.stop_time = time.time()
             self.content = r.content
             self.status_code = r.status_code
-        except KeyboardInterrupt:
-            print r
         except RequestException:
             raise
         return self
