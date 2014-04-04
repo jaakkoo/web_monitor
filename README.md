@@ -2,19 +2,19 @@ Web Monitor
 ===========
 Web Monitor for monitoring web pages.
 
-Installation:
+## Installation
 I suggest using virtual environments so that the application dependencies don't get installed system wide:
 Create Virtual Environment:
 virtualenv --no-site-packages web_monitor
 
-To Activate:
+### To Activate
 source web_monitor/bin/activate
 
-Install dependencies:
+## Install dependencies
 pip install -r requirements.txt
 
-Usage: web_monitor.py [opts]
-
+## Usage: web_monitor.py [opts]
+```
 Options:
   -h, --help            show this help message and exit
   -f FREQUENCY, --frequency=FREQUENCY
@@ -26,6 +26,7 @@ Options:
   -c CONFIG_FILE, --config=CONFIG_FILE
                         Path to config file. If not given, default path will
                         be used.
+```
 
 Run unittests:
 Type "nosetests" (in the folder where web monitor was unpacked)
