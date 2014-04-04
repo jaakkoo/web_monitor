@@ -28,11 +28,11 @@ Options:
                         be used.
 ```
 
-Run unittests:
+### Run unittests:
 Type "nosetests" (in the folder where web monitor was unpacked)
 
-Configuring new sites:
+### Configuring new sites:
 Example configuration is located in <web_monitor_root>/conf/default.cfg
 
-Web Server:
-Web UI can be accessed with browser from localhost:8080.
+## Web Server:
+Web UI can be accessed with browser from localhost:8080 when web_monitor was launched with -w -option.
